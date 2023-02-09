@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Maxence Dubois</title>
 </head>
 
@@ -30,12 +31,6 @@
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> Compétences
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i>
-                            Services
                         </a>
                     </li>
                     <li class="nav__item">
@@ -406,11 +401,80 @@
             </div>
         </section>
 
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Mes projets</span>
+
+            <div class="portfolio__container swiper swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.PNG" alt="img tesla projet" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Projet d'étude</h3>
+                            <p class="portfolio__description">Refonte du site Tesla, qui va de la conception, à la réalisation.</p>
+                            <p class="portfolio__technologies">Technologies : PHP/Laravel, JavaScript, Html, Css, Postgres</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Détails <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.PNG" alt="img monogame lost" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Lost Temple</h3>
+                            <p class="portfolio__description">Jeux vidéos, type Aventure</p>
+                            <p class="portfolio__technologies">Technologies : MonoGame - C#</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Détails <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.PNG" alt="img medoc appli" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Application de médicamment</h3>
+                            <p class="portfolio__description">Application de gestion de médicamment avec une base de donnée</p>
+                            <p class="portfolio__technologies">Technologies : WPF - C#, Sql Server</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Détails <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolip4_02.PNG" alt="img form bde" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Inscription Tournois</h3>
+                            <p class="portfolio__description">Site internet pour des inscriptions de tournoi de jeux vidéos</p>
+                            <p class="portfolio__technologies">Technologies : PHP, HTML, CSS, Mysql</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Détails <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev">
+                    <i class="uil uil-arrow-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-arrow-left-b swiper-portfolio-icon"></i>
+                </div> -->
+            </div>
+        </section>
+        
     </main>
 
 
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9.0.3/swiper-bundle.min.js"></script>
 <script src="assets/js/app.js"></script>
+
+
 
 </html>
